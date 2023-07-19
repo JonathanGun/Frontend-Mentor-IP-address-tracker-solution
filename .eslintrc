@@ -1,0 +1,10 @@
+{
+  "extends": ["next", "next/core-web-vitals", "prettier"],
+  "rules": {
+      "no-console": "error",
+      "unused-imports/no-unused-imports": "error",
+      "react/no-unescaped-entities": "off",
+      "eol-last": ["error", "always"]
+  },
+  "plugins": ["unused-imports"]
+}
