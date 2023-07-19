@@ -9,7 +9,7 @@ import { LatLngTuple } from "leaflet"
 
 const ClientPage: React.FC = () => {
   const [cardInfo, setCardInfo] = useState<InfoItem[]>([])
-  const [coordinate, setCoordinate] = useState<LatLngTuple>()
+  const [coordinate, setCoordinate] = useState<LatLngTuple>([0, 0])
 
   useEffect(() => {
     fetchIpInfo()
